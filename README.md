@@ -1,4 +1,4 @@
-# Export PDF with puppeteersharp
+# Export PDF with Puppeteersharp
 
 
 This project was made to export an html template or a string to PDF using Azure Functions and Puppeteersharp in a simple way.
