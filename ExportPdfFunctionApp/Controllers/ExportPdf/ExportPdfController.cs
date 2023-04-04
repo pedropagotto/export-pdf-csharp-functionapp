@@ -13,7 +13,7 @@ using PuppeteerSharp;
 
 namespace ExportPdfFunctionApp.Controllers.ExportPdf;
 
-public static class ExportPdf
+public static class ExportPdfController
 {
     [FunctionName("ExportPdf")]
     public static async Task<IActionResult> RunAsync(
