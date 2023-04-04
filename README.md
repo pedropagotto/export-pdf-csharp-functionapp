@@ -29,3 +29,7 @@ func start
 Thanks Puppeteersharp for making generating a PDF so much easier.
 
 Repository: [PuppeteerSharp](https://github.com/hardkoded/puppeteer-sharp).
+
+### This project was created by:
+ - [Pedro Pagotto](https://github.com/pedropagotto).
+ - [Rogerio Souza](https://github.com/rogeriosouzax).
