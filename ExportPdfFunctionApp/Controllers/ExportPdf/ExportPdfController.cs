@@ -17,7 +17,7 @@ public static class ExportPdfController
 {
     [FunctionName("ExportPdf")]
     public static async Task<IActionResult> RunAsync(
-        [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = "pdf")] HttpRequest req, ILogger log)
+        [HttpTrigger(AuthorizationLevel.Function, "post", Route = "pdf")] HttpRequest req, ILogger log)
     {
         try
         {
