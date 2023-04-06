@@ -56,6 +56,9 @@ public static class ExportPdfController
             var pdfOptions = new PdfOptions()
             {
                 PrintBackground = true,
+                MarginOptions = {
+                    Top =  "16px"
+                }
             };
             
             log.LogInformation($"Print pdf file");
